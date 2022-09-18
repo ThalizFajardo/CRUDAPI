@@ -1,0 +1,81 @@
+:root {
+  font-family: sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 65% auto;
+}
+
+.formContainer {
+  display: grid;
+  height: 100%;
+}
+
+.formContainer .clear {
+  width: 40px;
+  background-color: white;
+  border-style: none;
+  color: black;
+  font-size: large;
+  margin: -25px 0 0px 18rem;
+  text-align: center;
+}
+
+.listContainer {
+  background-image: url("https://wallpaperaccess.com/full/2215520.jpg");
+  height: 100%;
+
+}
+
+.userCard {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  box-shadow: 1px 2px 3px black;
+  padding: 1rem;
+  margin: 5% 8%;
+  list-style: none;
+}
+
+.input-container, .input-containerName, .input-containerRest {
+  padding: 0.5rem 1rem;
+}
+
+.input-container, .input-containerRest {
+  grid-column-start: 1;
+}
+
+.input-containerName {
+  grid-column-start: 2;
+  margin: 0px 0 0 -157px;
+}
+
+.input-containerRest input, .input-container input {
+  margin: 0 0 0 0.5rem;
+}
+
+.formContainer button {
+  background-color: lightblue;
+  color: white;
+  font-size: large;
+  grid-column-start: 1;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 8px;
+  margin-left: 1rem;
+}
+
+.formContainer input {
+  background-color: lightgray;
+  color: gray;
+  border-radius: 8px;
+  padding: 0.3rem;
+  width: 9rem;
+}
